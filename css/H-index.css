@@ -1,0 +1,381 @@
+/*  Home Background   */
+html,
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 197, 197);
+    background-image: url(../picture/picture\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* nav bar */
+.nav-bar{
+    position: absolute;
+    border: none;
+    background-color: rgba(10, 10, 10, 0.979);
+    box-shadow: black;
+    height: 60px;
+    width: 105%;
+    right: 0%;
+    top: 0%;
+    user-select: none;
+}
+
+.nav-bar2{
+    position: absolute;
+    border: none;
+    background-color: rgb(243, 240, 51);
+    height: 5px;
+    width: 105%;
+    right: 0%;
+    top: 6.5%;
+    user-select: none;
+}
+
+.footer-nav{
+    position: fixed;
+    border-top: 5px solid rgb(243, 240, 51);
+    border-bottom: 5px solid rgb(243, 240, 51);
+    background-color: rgba(10, 10, 10, 0.979);
+    height: 190px;
+    width: 100%;
+    right: 0%;
+    top: 78%;
+    user-select: none;
+}
+
+/* logo page */
+.market-logo{
+    position: absolute;
+    color: rgb(240, 234, 234);
+    font-family: Montserrat, sans-serif;
+    user-select: none;
+    letter-spacing: 0.1cm;
+    font-size: 20px;
+    top: 1.5%;
+    left: 1.7%;
+    
+}
+
+/* Catagorie of links */
+.Catagorie {
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 7.5%;
+    text-align: left;
+    user-select: none;
+    gap: 25px;
+}
+
+.Catagorie-2{
+    position: absolute;
+    color: #d82626;
+    display: flex;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 72%;
+    text-align: left;
+    user-select: none;
+    gap: 25px;
+}
+
+/* selector options */
+.dropdown-menu{
+    position: absolute !important;
+    color: rgb(151, 148, 148) !important;
+    background-color: rgb(7, 7, 7) !important;
+    margin-top: 1% !important;
+    width: 100% !important;
+}
+
+/* item selector */
+.dropdown-item{
+    height: 60% !important;
+    border-radius: 0% !important;
+
+}
+
+
+/* hover drop-down item */
+.dropdown-item:hover{
+    background-color: rgb(7, 7, 7) !important;
+}
+
+/* selector */
+.catalog{
+    position: absolute ;
+    color: rgb(151, 148, 148) ;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 29.8%;
+    text-align: left;
+    user-select: none;
+
+}
+
+/* Syle cartagorie */
+.li, a, ul {
+    text-decoration: none !important;
+    list-style-type: none; 
+    font-family: Montserrat, sans-serif;
+    color: rgb(151, 148, 148) !important;
+    user-select: none;
+}
+
+/* hover color links */
+.color:hover{
+    color: rgb(255, 245, 245) !important;
+    text-shadow:  
+    0 0 7px rgb(247, 244, 244), 
+    0 0 10px rgb(247, 244, 244), 
+    0 0 42px rgb(247, 244, 244),   
+    0 0 77px rgb(247, 244, 244), 
+    0 0 100px rgb(247, 244, 244) 
+} 
+    
+/* Button */
+.SignUp{
+    color: rgb(151, 148, 148) !important;
+    background-color: rgba(10, 10, 10, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    border: none;
+    position: absolute;
+    top: 1.1%;
+    width: 150px;
+    height: 35px;
+    margin-left: 84%;
+    border-radius: 5px;
+    outline: none;
+    user-select: none;
+    text-align: center;
+}
+
+.Login{
+    color: rgb(151, 148, 148) !important;
+    background: rgba(37, 37, 37, 0.384);
+    font-family: Montserrat, sans-serif;
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    border: none;
+    position: absolute;
+    top: 1.1%;
+    width: 100px;
+    height: 35px;
+    margin-left: 91.5%;
+    border-radius: 5px;
+    outline: none;
+    user-select: none;
+    text-align: center;
+}
+
+/* filter background */
+.filter{
+    position: absolute;
+    border: 1px solid  rgba(0, 0, 0, 0.664);
+    background-color: rgba(0, 0, 0, 0.664);
+    top: 7.1%;
+    left: 0%;
+    width: 100%;
+    height: 92.5%;
+    user-select: none;
+}
+
+/* welcome page */
+.Welcome-Page{
+    position: absolute;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    font-size: 50px;
+    top: 21%;
+    left: 190px;
+    user-select: none;
+    
+}   
+
+.Seconde-Text{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: rgb(201, 197, 197);
+    top: 34%;
+    left: 15%;
+    user-select: none;
+}
+
+ /* custom button */
+.buttons{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 20px;
+    font-family: Montserrat, sans-serif;
+    background-color: rgb(247, 243, 35);
+    font-size: 19px;
+    top: 48%;
+    left: 10%;
+    width: 500px;
+    height: 50px;
+    outline: none;
+    box-shadow: rgb(24, 24, 24);
+    user-select: none;
+    text-align: center;
+}
+
+/* Img Page 1 */
+/* .img{
+    position: absolute;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.753);
+    box-sizing: 50px;
+    top: 35%;
+    left: 67%;
+    height: 26%;
+    width: 11%;
+    -webkit-user-drag: none;
+
+} */
+
+/* box offre 50% */
+.box{
+    position: absolute;
+    border: none;
+    background: rgba(37, 37, 37, 0.932);
+    border-radius: 5px;
+    left: 16.0%;
+    top: 8px;
+    height: 40px;
+    width: 120px;
+}
+
+/* title catagorie decoration + margin */
+.title-flix {
+   font-size: 30px;
+   text-decoration: none;
+   margin-top: 10% !important;
+   margin-left: 216% !important;
+}
+
+/* fonts size technology catagorie*/
+.size-fonts {
+    font-size: 20px;
+    text-decoration: none;
+    right: 0% !important;
+    text-align: center !important;
+}
+
+/* line-1 catagorie options */
+.Line-1{
+    display: flex !important; 
+    margin-top: 8% !important;
+    margin-left:  -5.9% !important; 
+    
+}
+
+/* line-2 catagorie options */
+.Line-2{
+    display: flex !important; 
+    margin-top: 22% !important;
+    margin-left:  -63% !important; 
+}
+
+/* color catagorie sub-title */
+.sub-title{
+  color: rgb(236, 238, 104) !important;
+}
+
+/* catagorie title option */
+.tilte-catagorie{
+  display: flex !important;
+}
+
+/* #slider, ul
+{
+	height: 175px;
+} */
+
+/* slider container */
+/* .slider-container  p
+{   
+	margin: 10px;
+	font-weight: semi-bold;
+	line-height: 150%;
+} */
+/* 
+#slider
+{
+    margin: auto;
+	overflow: hidden;
+	position: relative;
+    margin-left: 36.3%;
+	width: 600px;
+} */
+/* 
+#slider li
+{
+	position: relative;
+	width: 600px;
+	display: inline-block;
+	height: 100px;
+} */
+
+/* #slider ul
+{
+	list-style: none;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	width: 9000px;
+	transition: left .2s linear;
+	-moz-transition: left .2s linear;
+	-o-transition: left .2s linear;
+	-webkit-transition: left .2s linear;
+	margin-left: -25px;
+   color: #666;
+} */
+
+/*** Content ***/
+
+/* .slider-container
+{
+  color:rgb(255, 255, 255);
+  width: 550px;
+  text-align:center;
+  margin-top: 50px;
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+} */
+
+/*** target hooks ****/
+
+/* @keyframes slide-animation {
+	0% {opacity:0;}
+	2% {opacity:1;}
+	20% {left:0px; opacity:1;}
+	22.5% {opacity:0.6;}
+	25% {left:-600px; opacity:1;}
+	45% {left:-600px; opacity:1;}
+	47.5% {opacity:0.6;}
+	50% {left:-1200px; opacity:1;}
+	70% {left:-1200px; opacity:1;}
+	72.5% {opacity:0.6;}
+	75% {left:-1800px; opacity:0;}
+	95% {opacity:1;}
+	98% {left:-1800px; opacity:0;} 
+	100% {left:0px; opacity:0;}
+} */
+
+/* #slider ul
+{
+	animation: slide-animation 25s infinite;
+} */
+
+/* #slider ul:hover
+{
+	animation-play-state: paused;
+	animation-play-state: paused;
+}
+ */
